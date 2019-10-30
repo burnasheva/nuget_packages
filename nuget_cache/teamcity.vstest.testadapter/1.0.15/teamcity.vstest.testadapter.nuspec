@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>TeamCity.VSTest.TestAdapter</id>
+    <version>1.0.15</version>
+    <title>TeamCity VSTest Adapter</title>
+    <authors>NikolayP</authors>
+    <owners>NikolayP</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/JetBrains/TeamCity.VSTest.TestAdapter/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/JetBrains/TeamCity.VSTest.TestAdapter</projectUrl>
+    <iconUrl>https://github.com/JetBrains/TeamCity.VSTest.TestAdapter/raw/master/icon.png</iconUrl>
+    <description>Provides an integration TeamCity and test frameworks.
+
+Usage:
+
+  - Create a test project, for example using the command line: dotnet new xunit
+  - Add the NuGet reference to this package</description>
+    <copyright>JetBrains</copyright>
+    <tags>TeamCity VSTest message</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="Microsoft.TestPlatform.ObjectModel" version="11.0.0" exclude="Build,Analyzers" />
+        <dependency id="TeamCity.ServiceMessages" version="3.0.11" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="IoC.Container" version="1.1.14" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.TestPlatform.ObjectModel" version="11.0.0" exclude="Build,Analyzers" />
+        <dependency id="TeamCity.ServiceMessages" version="3.0.11" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.5">
+        <dependency id="IoC.Container" version="1.1.14" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.TestPlatform.ObjectModel" version="15.0.0" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="TeamCity.ServiceMessages" version="3.0.11" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

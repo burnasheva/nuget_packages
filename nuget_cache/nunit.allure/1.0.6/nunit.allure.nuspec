@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NUnit.Allure</id>
+    <version>1.0.6</version>
+    <authors>Nick Chursin</authors>
+    <owners>Nick Chursin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/unickq/allure-nunit/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/unickq/allure-nunit</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/unickq/allure-nunit/master/logo.png</iconUrl>
+    <description>NUnit attributes extenstions for Allure</description>
+    <releaseNotes>Fixed console log attachment encoding</releaseNotes>
+    <tags>nunit allure</tags>
+    <repository url="https://github.com/unickq/allure-nunit" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Allure.Commons" version="2.3.64.1" exclude="Build,Analyzers" />
+        <dependency id="NUnit" version="3.10.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Allure.Commons" version="2.3.64.1" exclude="Build,Analyzers" />
+        <dependency id="NUnit" version="3.10.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

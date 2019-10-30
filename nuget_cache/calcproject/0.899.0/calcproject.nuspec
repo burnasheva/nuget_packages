@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CalcProject</id>
+    <version>0.899.0</version>
+    <title>CalcProject</title>
+    <authors>Nadezhda.Burnasheva</authors>
+    <owners>Nadezhda.Burnasheva</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Description</description>
+    <copyright>Copyright ©  2015</copyright>
+    <dependencies />
+  </metadata>
+</package>

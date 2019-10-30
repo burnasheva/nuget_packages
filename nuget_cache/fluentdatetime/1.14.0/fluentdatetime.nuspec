@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FluentDateTime</id>
+    <version>1.14.0</version>
+    <authors>Slobodan Pavkov, Tom Pester, Simon Cropp</authors>
+    <owners>Slobodan Pavkov, Tom Pester, Simon Cropp</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/FluentDateTime/FluentDateTime</projectUrl>
+    <iconUrl>https://raw.github.com/FluentDateTime/FluentDateTime/master/Icons/package_icon.png</iconUrl>
+    <description>Package Description</description>
+    <copyright>Copyright 2017 Slobodan Pavkov, Tom Pester, Simon Cropp. All rights reserved</copyright>
+    <tags>DateTime</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETStandard1.4">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

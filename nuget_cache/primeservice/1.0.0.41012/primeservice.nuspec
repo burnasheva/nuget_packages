@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>PrimeService</id>
+    <version>1.0.0.41012</version>
+    <authors>PrimeService</authors>
+    <owners>PrimeService</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Castle.Core" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="Dapper" version="1.60.6" exclude="Build,Analyzers" />
+        <dependency id="EntityFramework" version="6.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Hosting.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.WebUtilities" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Primitives" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.Platforms" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Moq" version="4.12.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.2" exclude="Build,Analyzers" />
+        <dependency id="jQuery" version="3.4.1" exclude="Build,Analyzers" />
+        <dependency id="jQuery.Validation" version="1.17.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
